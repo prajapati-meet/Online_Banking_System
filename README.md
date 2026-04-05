@@ -39,24 +39,6 @@ This application simulates core banking functionalities such as account manageme
 - Transaction handling with consistency using `@Transactional`
 
 
-## Backend Structure
-com.bank
-├── controller # REST Controllers (Auth, Account, Transfer)
-├── services # Business Logic Layer
-├── repository # JPA Repositories
-├── entity # Database Entities
-├── dto # Request/Response DTOs
-├── security # JWT Filter and Security Config
-
-
-## Frontend Structure
-src
-├── components # Reusable UI components
-├── Pages # Application pages (Login, Register, Dashboard, etc.)
-├── Services # API calls using Axios
-├── App.jsx # Routing configuration
-
-
 ## How to Run
 
 ### 1. Backend Setup (Spring Boot)
